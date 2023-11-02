@@ -42,8 +42,8 @@ export class AuthGuard implements CanActivate, CanLoad {
     | Promise<boolean | UrlTree>
     | boolean
     | UrlTree {
-      // Will close after returning first value
-      // All following call will return that same value
+    // Will close after returning first value
+    // All following call will return that same value
     return this.store.select(fromRoot.getIsAuthenticated).pipe(take(1));
   }
 }
