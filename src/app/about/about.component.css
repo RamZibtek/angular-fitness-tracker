@@ -1,3 +1,14 @@
+h2,
+h3 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+i {
+  font-size: 30px;
+  padding: 8px;
+}
+
 .main {
   margin-top: 12%;
   position: relative;
@@ -32,15 +43,4 @@
     left: 0px;
     top: 0px;
   }
-}
-
-h2,
-h3 {
-  font-size: 20px;
-  font-weight: 400;
-}
-
-i {
-  font-size: 30px;
-  padding: 8px;
 }
